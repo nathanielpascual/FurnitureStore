@@ -10,7 +10,36 @@
     <title>Furniture Store</title>
 </head>
 <body> 
+    <!-- modal box -->
+    <input type="checkbox" id="show-hide-forms" hidden>
+    <div class="forms-wrapper">
+        <label for="show-hide-forms" class="x-btn">&#10005;</label>
+        <input type="checkbox" id="show-form" hidden>
+        <div class="show-btns-wrapper">
+            <label for="show-form" class="show-form-btn show-signup-form">Sign Up</label>
+            <label for="show-form" class="show-form-btn show-login-form">Log in</label>
+        </div>
 
+        <form action="" class="signup-form">
+            <h3 class="form-heading">Sign up</h3>
+            <div class="fullname-inputs-wrapper">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <input type="text" class="form-input" placeholder="Username">
+            <input type="emai" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" class="form-btn" value="SIGN UP">
+        </form>
+        <form action="" class="login-form">
+            <h3 class="form-heading">Login</h3>   
+            <input type="emai" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" class="form-btn" value="Log in">
+        </form>
+    </div>
+
+    <!-- end of modal box -->
     <div class="container">
         <!-- navbar -->
         <ul class="social-icons">
